@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.check-out-btn {
+  background-color: #0b69ff;
+  border-width: 0px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 100%;
+}
+.cart-summary-container {
+  width: 400px;
+}
