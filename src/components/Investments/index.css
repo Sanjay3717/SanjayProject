@@ -1,0 +1,43 @@
+.trigger-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  background-color: #7c69e9;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+}
+.invest-option {
+  background: transparent;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.investment-icon {
+  margin-right: 20px;
+  font-size: 30px;
+  background-color: #7c69e9;
+  border-radius: 30px;
+  padding: 5px;
+  color: #ffffff;
+}
+.investment-name {
+  color: #7c69e9;
+}
+.financial-ideas-sub-container {
+  margin-left: 20px;
+}
+.investment-content {
+  font-size: 20px;
+  color: #4b6303;
+}

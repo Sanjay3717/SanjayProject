@@ -73,6 +73,11 @@ const Header = props => {
                 Products
               </Link>
             </li>
+            <li className="nav-menu-item">
+              <Link to="/investments" className="nav-link">
+                Investments
+              </Link>
+            </li>
 
             <li className="nav-menu-item">
               <Link to="/cart" className="nav-link">
@@ -107,6 +112,15 @@ const Header = props => {
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
                 alt="nav products"
+                className="nav-bar-img"
+              />
+            </Link>
+          </li>
+          <li className="nav-menu-item-mobile">
+            <Link to="/investments" className="nav-link">
+              <img
+                src="https://res.cloudinary.com/dzy3vcadj/image/upload/v1696303775/download_yhlicu.png"
+                alt="nav investments"
                 className="nav-bar-img"
               />
             </Link>

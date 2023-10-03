@@ -8,6 +8,7 @@ import ProductItemDetails from './components/ProductItemDetails'
 import Cart from './components/Cart'
 import NotFound from './components/NotFound'
 import ProtectedRoute from './components/ProtectedRoute'
+import Investments from './components/Investments'
 import CartContext from './context/CartContext'
 
 import './App.css'
@@ -103,6 +104,7 @@ class App extends Component {
             component={ProductItemDetails}
           />
           <ProtectedRoute exact path="/cart" component={Cart} />
+          <ProtectedRoute exact path="/investments" component={Investments} />
           <Route path="/not-found" component={NotFound} />
           <Redirect to="not-found" />
         </Switch>
