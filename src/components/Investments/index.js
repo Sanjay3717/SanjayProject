@@ -6,6 +6,13 @@ import Header from '../Header'
 import FixedDeposit from '../FixedDeposit'
 import PostOffice from '../PostOffice'
 import Equity from '../Equity'
+import Trading from '../Trading'
+import MutualFunds from '../MutualFunds'
+import Gold from '../Gold'
+import RealEstate from '../RealEstate'
+import Insurance from '../Insurance'
+import SGB from '../SGB'
+import SIP from '../SIP'
 
 class Investments extends Component {
   render() {
@@ -45,6 +52,13 @@ class Investments extends Component {
         <FixedDeposit />
         <PostOffice />
         <Equity />
+        <Trading />
+        <MutualFunds />
+        <Gold />
+        <RealEstate />
+        <Insurance />
+        <SGB />
+        <SIP />
       </div>
     )
   }
