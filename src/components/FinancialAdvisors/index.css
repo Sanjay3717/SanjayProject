@@ -1,0 +1,30 @@
+.advisor-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.advisor-profile-pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 300px;
+}
+.advisor-details {
+  border: 0px;
+  cursor: pointer;
+  margin: 20px;
+  background: none;
+}
+.advisor-main-title {
+  text-align: center;
+  color: #3470e1;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 40px;
+}
+.advisor-name {
+  font-size: 20px;
+  padding-top: 15px;
+  color: #f5702d;
+  font-weight: bold;
+}

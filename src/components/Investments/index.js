@@ -13,6 +13,7 @@ import RealEstate from '../RealEstate'
 import Insurance from '../Insurance'
 import SGB from '../SGB'
 import SIP from '../SIP'
+import FinancialAdvisors from '../FinancialAdvisors'
 
 class Investments extends Component {
   render() {
@@ -59,6 +60,7 @@ class Investments extends Component {
         <Insurance />
         <SGB />
         <SIP />
+        <FinancialAdvisors />
       </div>
     )
   }
